@@ -27,6 +27,62 @@ button {
   box-shadow: 2px 5px 5px #333;
 }
 
+h1{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  color: rgb(89, 38, 94);
+}
+
+label{
+  font-size: 23px;
+  color: rgb(89, 38, 94);
+}
+
+#new-task-description{
+  height: 20px;
+  width: 350px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(248, 190, 248);
+  text-align: center;
+  color: rgb(116, 27, 119);
+  font-size: 18px;
+  padding: 9px;
+}
+
+.createbtn{
+  width: 150px;
+  height: 27px;
+  font-size: 15px;
+  color: rgb(82, 28, 107);
+  background-color: rgba(255, 219, 249, 0.616);
+  border-style: solid;
+  border-radius: 14px;
+  border-color: rgba(151, 33, 187, 0.233);
+}
+
+#priorityInput{
+  width: 190px;
+  height: 27px;
+  font-size: 15px;
+  color: rgb(82, 28, 107);
+  background-color: rgba(255, 219, 249, 0.616);
+  border-style: solid;
+  border-radius: 14px;
+  border-color: rgba(151, 33, 187, 0.233);
+}
+
+#sortBtn{
+  width: 130px;
+  height: 25px;
+  font-size: 13px;
+  color: rgb(82, 28, 107);
+  background-color: rgba(255, 219, 249, 0.616);
+  border-style: solid;
+  border-radius: 14px;
+  border-color: rgba(151, 33, 187, 0.137);
+}
+
 #list {
   margin: 10px;
   border: 1px solid #333;
@@ -34,4 +90,30 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  color:rgb(89, 38, 94) ;
 }
+
+.delete-btn{
+  width: 80px;
+  height: 22px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 11px;
+  border-style: solid;
+  border-color: rgba(255, 200, 237, 0.568);
+  color: rgba(131, 17, 112, 0.932);
+  background-color: rgba(255, 17, 243, 0.349);
+}
+
+.edit-btn{
+  width: 60px;
+  height: 22px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 11px;
+  border-style: solid;
+  border-color: rgba(255, 200, 237, 0.568);
+  color: rgba(131, 17, 112, 0.932);
+  background-color: rgba(255, 17, 243, 0.349);
+}
+
